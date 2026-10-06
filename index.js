@@ -1,4 +1,4 @@
-import express from 'express';
+import express from 'express'
 import pg from 'pg'
 const app = express()
 const port = 3000
@@ -14,7 +14,7 @@ const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
     database: 'mahasiswa',
-    password: 'Gtn433ni',
+    password: 'gtn433ni',
     port: 5432,
 })
 
